@@ -4,14 +4,29 @@ import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
   margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 20% 80%;
+  display: flex;
   justify-content: space-between;
   width: 90%;
+  max-width: 450px;
+  align-items: center;
 
   img {
     height: 75px;
-    padding: 0 2rem;
+    margin-left: 2rem;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  div > h2,
+  h3 {
+    margin: 0;
+    padding: 0;
   }
 `;
 

@@ -6,10 +6,9 @@ import styled from "styled-components/macro";
 const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
   max-width: 600px;
   width: 90%;
-  margin: 0 auto;
 `;
 
 const Page = () => (
