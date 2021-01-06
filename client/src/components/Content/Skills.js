@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components/macro";
-import Button from "../Button/Button";
 
 const SkillsDiv = styled.div`
   display: flex;
