@@ -12,9 +12,9 @@ const SkillsDiv = styled.div`
 
 const Skills = () => (
   <SkillsDiv>
-    <h2>profession</h2>
+    <h3>profession</h3>
     <div>Placeholder for skills</div>
-    <h2>software</h2>
+    <h3>software</h3>
     <div>Placeholder for skills</div>
   </SkillsDiv>
 );

@@ -12,15 +12,15 @@ const ContactDiv = styled.div`
 
 const Contact = () => (
   <ContactDiv>
-    <h2>Find me here:</h2>
+    <h3>Find me here:</h3>
     <span>LinkedIn</span>
     <span>Facebook</span>
     <span>Instagram</span>
-    <h2>Or leave me a message</h2>
+    <h3>Or leave me a message</h3>
     <form>
       <input />
       <input />
-      <Button />
+      <Button value="send" />
     </form>
   </ContactDiv>
 );

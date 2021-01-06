@@ -11,7 +11,7 @@ const AboutDiv = styled.div`
 
 const About = () => (
   <AboutDiv>
-    <h2>Hier steht ein Headline</h2>
+    <h3>Hier steht ein Headline</h3>
     <p>
       Laura Vikanis is a Web Developer and Designer based in Cologne, Germany.
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -24,7 +24,7 @@ const About = () => (
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </p>
-    <h2>Hier steht ein Headline</h2>
+    <h3>Hier steht ein Headline</h3>
     <p>
       Laura Vikanis is a Web Developer and Designer based in Cologne, Germany.
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
