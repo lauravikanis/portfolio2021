@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Menueitem from "../components/Menueitem/Menueitem";
 import styled from "styled-components/macro";
+import About from "../components/Content/About";
+import Skills from "../components/Content/Skills";
+import Contact from "../components/Content/Contact";
 
 const MainDiv = styled.div`
   display: flex;
@@ -17,15 +20,18 @@ const Page = () => (
     <Menueitem>
       <h2>About</h2>
     </Menueitem>
+    <About />
     <Menueitem>
       <h2>Skills</h2>
     </Menueitem>
+    <Skills />
     <Menueitem secondary>
-      <h2>Kontakt</h2>
+      <h2>Contact</h2>
     </Menueitem>
-    <Menueitem>
+    <Contact />
+    {/* <Menueitem>
       <h2>Blog</h2>
-    </Menueitem>
+    </Menueitem> */}
   </MainDiv>
 );
 
