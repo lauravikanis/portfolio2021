@@ -1,18 +1,17 @@
 import React from "react";
-import playceholder from "../../assets/blueplaceholder.svg";
+import profilepic from "../../assets/profile.jpg";
 import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
   margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 450px;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 20% auto;
+  justify-content: space-around;
 
   img {
-    height: 75px;
+    height: 80px;
     margin-left: 2rem;
+    border-radius: 50px;
   }
   div {
     display: flex;
@@ -32,11 +31,11 @@ const HeaderContainer = styled.header`
 
 const Header = () => (
   <HeaderContainer>
-    <img src={playceholder} alt="Laura" />
-    <div>
-      <h2>Laura Vikanis</h2>
-      <h3>Hier steht Text</h3>
-    </div>
+    <img src={profilepic} alt="Laura" />
+    {/* <div> */}
+    <h2>Laura Vikanis</h2>
+    {/* <h3>Hier steht Text</h3> */}
+    {/* </div> */}
   </HeaderContainer>
 );
 

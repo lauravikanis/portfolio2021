@@ -19,6 +19,11 @@ body {
   background-repeat: no-repeat;
   
  }
+ 
+ p{
+   font-size:1.2rem;  
+   }
+
 h1, h2, h3, h4{
     font-family: 'Roboto Mono', monospace;  
     /* text-align: center; */

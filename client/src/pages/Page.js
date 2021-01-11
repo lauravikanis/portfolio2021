@@ -7,12 +7,13 @@ import Contact from "../components/Content/Contact";
 import Projects from "../components/Content/Projects";
 import Skills from "../components/Content/Skills";
 import Footer from "../components/Footer/Footer";
+import CV from "../components/Content/CV";
 
 const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
+  max-width: 900px;
   width: 90%;
 `;
 
@@ -29,6 +30,10 @@ const Page = () => (
         <h2>Skills</h2>
       </Menueitem>
       <Skills />
+      <Menueitem>
+        <h2>CV</h2>
+      </Menueitem>
+      <CV />
       <Menueitem>
         <h2>Projects</h2>
       </Menueitem>
