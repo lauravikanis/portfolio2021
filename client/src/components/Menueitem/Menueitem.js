@@ -12,6 +12,10 @@ const MenueItem = styled.div`
   width: 90%;
   text-align: center;
   margin-top: 1rem;
+
+  h2 {
+    margin: 0.25rem;
+  }
 `;
 
 MenueItem.propTypes = {
