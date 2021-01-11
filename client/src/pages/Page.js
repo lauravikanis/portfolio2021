@@ -3,8 +3,9 @@ import Header from "../components/Header/Header";
 import Menueitem from "../components/Menueitem/Menueitem";
 import styled from "styled-components/macro";
 import About from "../components/Content/About";
-import Skills from "../components/Content/Skills";
 import Contact from "../components/Content/Contact";
+import Projects from "../components/Content/Projects";
+import Skills from "../components/Content/Skills";
 
 const MainDiv = styled.div`
   display: flex;
@@ -25,6 +26,10 @@ const Page = () => (
       <h2>Skills</h2>
     </Menueitem>
     <Skills />
+    <Menueitem>
+      <h2>Projects</h2>
+    </Menueitem>
+    <Projects />
     <Menueitem secondary>
       <h2>Contact</h2>
     </Menueitem>
