@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/Header/Header";
-import Menueitem from "../components/Menueitem/Menueitem";
+// import Header from "../components/Header/Header";
+// import Menueitem from "../components/Menueitem/Menueitem";
 import styled from "styled-components/macro";
-import About from "../components/Content/About";
-import Contact from "../components/Content/Contact";
-import Projects from "../components/Content/Projects";
-import Skills from "../components/Content/Skills";
+// import About from "../components/Content/About";
+// import Contact from "../components/Content/Contact";
+// import Projects from "../components/Content/Projects";
+// import Skills from "../components/Content/Skills";
 
 const MainDiv = styled.div`
   display: flex;
