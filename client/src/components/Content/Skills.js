@@ -8,6 +8,7 @@ const SkillsDiv = styled.div`
   justify-content: center;
   max-width: 600px;
   width: 90%;
+  align-items: center;
 `;
 
 const Container = styled.div`

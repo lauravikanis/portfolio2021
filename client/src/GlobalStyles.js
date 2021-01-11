@@ -25,6 +25,7 @@ h1, h2, h3, h4{
     text-transform: uppercase;
 }
 
+h3 {margin-bottom:0.25rem}
 
 
 `;

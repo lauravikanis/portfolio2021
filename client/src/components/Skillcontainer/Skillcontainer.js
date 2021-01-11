@@ -4,12 +4,13 @@ import PropTypes from "prop-types";
 const Skill = styled.div`
   display: flex;
   justify-content: center;
-  background-color: var(--secondary-color);
-  color: white;
+  background-color: var(--action-color);
+  color: black;
   border-radius: 15px;
   text-align: center;
   margin-top: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
+  margin: 0.25rem;
 `;
 
 Skill.propTypes = {

@@ -7,7 +7,7 @@ const Button = styled.input`
   justify-content: center;
   background-color: var(--action-color);
   border-radius: 15px;
-  border: 1px solid var(--action-color);
+  border: none;
   width: 25%;
   max-width: 150px;
   height: 40px;
@@ -20,14 +20,12 @@ const Button = styled.input`
   font-family: "Roboto Mono", monospace;
 
   :hover {
-    background-color: white;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background-color: black;
+    color: var(--action-color);
   }
   :active {
-    background-color: white;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background-color: black;
+    color: var(--action-color);
   }
 `;
 
