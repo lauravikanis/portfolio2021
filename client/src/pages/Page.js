@@ -17,7 +17,8 @@ const MainDiv = styled.div`
 
 const Page = () => (
   <MainDiv>
-    <Header />
+    <h1>Work In Progrress</h1>
+    {/* <Header />
     <Menueitem>
       <h2>About</h2>
     </Menueitem>
@@ -33,7 +34,7 @@ const Page = () => (
     <Menueitem secondary>
       <h2>Contact</h2>
     </Menueitem>
-    <Contact />
+    <Contact /> */}
     {/* <Menueitem>
       <h2>Blog</h2>
     </Menueitem> */}

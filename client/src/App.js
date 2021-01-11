@@ -15,7 +15,7 @@ function App() {
       <GlobalStyle />
       <AppDiv>
         <Page />
-        <a href="/storybook">To Storybook</a>
+        {/* <a href="/storybook">To Storybook</a> */}
       </AppDiv>
     </>
   );
