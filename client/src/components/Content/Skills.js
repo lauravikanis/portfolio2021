@@ -6,9 +6,9 @@ const SkillsDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
-  width: 90%;
   align-items: center;
+  background-color: var(--background);
+  padding: 0.5rem;
 `;
 
 const Container = styled.div`

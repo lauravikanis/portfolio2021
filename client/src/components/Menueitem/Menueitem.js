@@ -8,8 +8,6 @@ const MenueItem = styled.div`
     props.secondary ? "var(--secondary-color)" : "var(--primary-color)"};
   color: white;
   border-radius: 15px;
-  /* max-width: 750px;
-  width: 90%; */
   text-align: center;
   margin-top: 1rem;
 

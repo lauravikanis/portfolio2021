@@ -1,15 +1,14 @@
 import PropTypes from "prop-types";
 import styled from "styled-components/macro";
 
-const Button = styled.input`
+const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--action-color);
   border-radius: 15px;
   border: none;
-  width: 25%;
-  max-width: 150px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   height: 40px;
   margin: 15px auto;
   color: black;

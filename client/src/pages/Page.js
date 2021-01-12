@@ -14,7 +14,7 @@ const MainDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   max-width: 900px;
-  width: 90%;
+  width: 80%;
 `;
 
 const Page = () => (
@@ -31,13 +31,13 @@ const Page = () => (
       </Menueitem>
       <Skills />
       <Menueitem>
-        <h2>CV</h2>
-      </Menueitem>
-      <CV />
-      <Menueitem>
         <h2>Projects</h2>
       </Menueitem>
       <Projects />
+      {/* <Menueitem>
+        <h2>CV</h2>
+      </Menueitem>
+      <CV /> */}
       <Menueitem secondary>
         <h2>Contact</h2>
       </Menueitem>

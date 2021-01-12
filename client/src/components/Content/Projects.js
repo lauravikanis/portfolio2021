@@ -9,8 +9,8 @@ const ProjectsDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* max-width: 600px;
-  width: 90%; */
+  background-color: var(--background);
+  padding: 0.5rem;
 
   h5 {
     margin: 0;
@@ -24,22 +24,27 @@ const Projects = () => (
       Digitales Gesellenstück für das Webdevelopment Bootcamp bei neue Fische
     </h5>
     <p>
-      Es war mir sehr wichtig eine meiner größten Interessen in meine
-      Gesellenstück auf zu nehmen: Musik. Es ging mir nicht nur darum etwas
-      technisch sehr aufwendiges zu produzieren sonder etwa, das mir Spaß macht.
-      Mit meiner App „Walk the Line“ kann man sich Informationen musikalisch
-      wichtige Orte in Köln anhand des Lieblingsgeneres ausgeben lassen. Es gibt
-      eine Suche, in der man Orte suchen kann und es besteht die Möglichkeit
-      seine Lieblingslocations als Favorite speichern.
+      Mit meiner App „Walk The Line“habe ich mein großes Interesse am Thema
+      Musik verwirklichen können: Mit Hilfe der App kann man sich anhand des
+      Lieblingsgenres Informationen musikalisch wichtige Orte in Köln ausgeben
+      lassen. Es gibt eine Suche, in der man Orte suchen kann und es besteht die
+      Möglichkeit seine Lieblingslocations als Favorit speichern. Im Frontend
+      setze ich hierbei auf React und im Backend arbeite ich mit Node.js und
+      einer MongoDB Datenbank. In Zukunft habe ich vor weiter Datensätze in die
+      Datenbank zu fügen und so die User Experience zu erweitern.
     </p>
     <Projectdetails>
       <Detailcontainer>
-        <img src={githubpath} alt="github" />
-        GitHub
+        <a href="https://github.com/lauravikanis/WalkTheLine">
+          <img src={githubpath} alt="github" />
+          GitHub
+        </a>
       </Detailcontainer>
       <Detailcontainer>
-        <img src={herokupath} alt="deployment" />
-        Deployment
+        <a href="https://walktheline.herokuapp.com/">
+          <img src={herokupath} alt="deployment" />
+          Deployment
+        </a>
       </Detailcontainer>
     </Projectdetails>
   </ProjectsDiv>

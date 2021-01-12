@@ -6,11 +6,17 @@ const Detailcontainer = styled.div`
   justify-content: center;
   font-size: 1rem;
   margin: 1rem;
+  align-items: center;
+
   img {
-    width: 45px;
+    width: 25px;
     margin-bottom: 0.25rem;
   }
-  align-items: center;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export default Detailcontainer;

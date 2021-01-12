@@ -16,43 +16,57 @@ const ContactDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--background);
+  padding: 0.5rem;
 
   img {
     width: 25px;
     margin-right: 1rem;
+    margin-left: 1rem;
   }
 `;
 
 const Contact = () => (
   <ContactDiv>
-    <h3>Find me here:</h3>
+    <h3>Want to get into touch?</h3>
     <Projectdetails>
       <Detailcontainer>
-        <img src={githubpath} alt="ggithub" />
-        GitHub
+        <a href="https://github.com/lauravikanis">
+          <img src={githubpath} alt="github" />
+          GitHub
+        </a>
       </Detailcontainer>
       <Detailcontainer>
-        <img src={linkedinpath} alt="linkedin" />
-        LinkedIn
-      </Detailcontainer>{" "}
+        <a href="https://www.linkedin.com/in/lauravikanis/">
+          <img src={linkedinpath} alt="linkedin" />
+          LinkedIn
+        </a>
+      </Detailcontainer>
     </Projectdetails>
     <Projectdetails>
       <Detailcontainer>
-        <img src={facebookpath} alt="facebook" />
-        Facebook
+        <a href="https://www.facebook.com/laura.vikanis/">
+          <img src={facebookpath} alt="facebook" />
+          Facebook
+        </a>
       </Detailcontainer>
       <Detailcontainer>
-        <img src={instagrampath} alt="instagram" />
-        Instagram
+        <a href="https://www.instagram.com/loeremoehre/">
+          <img src={instagrampath} alt="instagram" />
+          Instagram
+        </a>
       </Detailcontainer>
       <Detailcontainer>
-        <img src={twitterpath} alt="twitter" />
-        Twitter
+        {" "}
+        <a href="https://twitter.com/loeremoehre">
+          <img src={twitterpath} alt="twitter" />
+          Twitter
+        </a>
       </Detailcontainer>
     </Projectdetails>
     <h3>Send me a message</h3>
 
-    <Button value="Send Loveletters" />
+    <Button href="mailto:info@lauravikanis.de"> Send Email</Button>
   </ContactDiv>
 );
 

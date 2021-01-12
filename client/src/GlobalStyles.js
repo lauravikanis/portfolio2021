@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   --textFont: "Roboto", sans-serif;
   --background: #FCFCFC;
   --text-color: #707070;
-  --primary-color: #123A9C;
+  --primary-color: #344e9d;
   --secondary-color: #ED7761;
   --action-color: #F5DF4D;
 }
@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
   background-image: url(${bg});
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   
  }
  

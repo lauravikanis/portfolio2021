@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components/macro";
-import starspath from "../../assets/stars.svg";
+import profilepic from "../../assets/profile.jpg";
+import Picturerow from "../Container/Picturerow";
+
 // import plantspath from "../../assets/plants.svg";
 // import musicpath from "../../assets/music.svg";
 
@@ -9,11 +11,8 @@ const AboutDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  img {
-    width: 100px;
-    margin: 0 auto;
-  }
+  background-color: var(--background);
+  padding: 0.5rem;
 `;
 
 const About = () => (
@@ -22,32 +21,24 @@ const About = () => (
       From Print Media Designer to Web Developer. Why? The future is digital.
       progress instead of stagnation - Without the leap into the digital realm,
       we will stand still. For me, things no longer just have to look good, but
-      also have to function flawlessly. Still far from finished with the journey
-      into the future, I now know how to use technology to make my digital
-      dreams come true.
+      also have to function flawlessly. Still far from my end of the journeys, I
+      now know how to use technology to make my digital dreams come true.
     </p>
-    <img src={starspath} alt="html" />
-    {/* <p>
-      I am a trained media designer and have been around in the industry for
-      eight years. Before i started working full time as a graphic designer I
-      trained as a Mediengestalter for three years. In my spare time, i design
-      posters for a local theatre and manage their social media accounts.
-    </p>
-    <img src={musicpath} alt="music" />
+    <Picturerow>
+      <img src={profilepic} alt="Laura" />
+      <img src={profilepic} alt="Laura" />
+      <img src={profilepic} alt="Laura" />
+    </Picturerow>
     <p>
-      I have always been interested in music. Whether it is a classical symphony
-      or a modern production - I refuse almost nothing. I can not compose and
-      write myself yet. But it gives me a lot of pleasure to create playlists
-      for every occasion and I can talk for hours about the latest discoveries.
-      Here you can find my Spotify profile. Apart from creating digital
-      playlists, I collect vinyl, i.e. records, and I am a real concert junkie.
+      Apart from working a lot on my computer, I love discovering new musik and
+      and enjoy going to concerts (hopefully again after corona). I like looking
+      around museums and visiting theaters. <br />
+      <br />
+      Since 2011 am am doing voluntary work for a small theater in Leverkusen
+      called<a href="https://www.matchboxtheater.de"> matchboxtheater</a>. Most
+      of theyr posters are designed by me. and a future project of mine might be
+      to relaunch their website. I
     </p>
-    <img src={plantspath} alt="plants" />
-    <p>
-      Apart from working a lot on my computer, I love nature. In my spare time,
-      I like to collect houseplants and propagate the ones I already own. My
-      favourite plant is my fiddle leave-fig, but I love all my green babies..
-    </p> */}
   </AboutDiv>
 );
 
