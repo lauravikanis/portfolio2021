@@ -4,11 +4,10 @@ const Picturerow = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: space-around;
+  width: 90%;
   img {
-    /* border-radius: 50px; */
-    width: 100px;
+    width: 175px;
     margin: 0.5rem;
   }
 `;

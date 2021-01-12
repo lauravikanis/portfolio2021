@@ -32,10 +32,7 @@ const HeaderContainer = styled.header`
 const Header = () => (
   <HeaderContainer>
     <img src={profilepic} alt="Laura" />
-    {/* <div> */}
     <h2>Laura Vikanis</h2>
-    {/* <h3>Hier steht Text</h3> */}
-    {/* </div> */}
   </HeaderContainer>
 );
 

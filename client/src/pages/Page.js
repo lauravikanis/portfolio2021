@@ -7,7 +7,7 @@ import Contact from "../components/Content/Contact";
 import Projects from "../components/Content/Projects";
 import Skills from "../components/Content/Skills";
 import Footer from "../components/Footer/Footer";
-import CV from "../components/Content/CV";
+// import CV from "../components/Content/CV";
 
 const MainDiv = styled.div`
   display: flex;

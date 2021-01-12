@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components/macro";
-import profilepic from "../../assets/profile.jpg";
 import Picturerow from "../Container/Picturerow";
 
-// import plantspath from "../../assets/plants.svg";
-// import musicpath from "../../assets/music.svg";
+import instabowie from "../../assets/Insta/Bowie_square.jpg";
+import instabubblegum from "../../assets/Insta/Bubblegum_square.jpg";
+import instaludwig from "../../assets/Insta/Ludwig_square.jpg";
 
 const AboutDiv = styled.div`
   display: flex;
@@ -18,16 +18,16 @@ const AboutDiv = styled.div`
 const About = () => (
   <AboutDiv>
     <p>
-      From Print Media Designer to Web Developer. Why? The future is digital.
-      progress instead of stagnation - Without the leap into the digital realm,
+      From Print Media Designer to Web Developer. The future is digital.
+      Progress instead of stagnation - Without the leap into the digital realm,
       we will stand still. For me, things no longer just have to look good, but
       also have to function flawlessly. Still far from my end of the journeys, I
       now know how to use technology to make my digital dreams come true.
     </p>
     <Picturerow>
-      <img src={profilepic} alt="Laura" />
-      <img src={profilepic} alt="Laura" />
-      <img src={profilepic} alt="Laura" />
+      <img src={instabowie} alt="Laura" />
+      <img src={instabubblegum} alt="Laura" />
+      <img src={instaludwig} alt="Museum Ludwig" />
     </Picturerow>
     <p>
       Apart from working a lot on my computer, I love discovering new musik and
