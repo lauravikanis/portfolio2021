@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components/macro";
-import Picturerow from "../Container/Picturerow";
+// import Picturerow from "../Container/Picturerow";
 
-import instabowie from "../../assets/Insta/Bowie_square.jpg";
-import instabubblegum from "../../assets/Insta/Bubblegum_square.jpg";
-import instaludwig from "../../assets/Insta/Ludwig_square.jpg";
+// import instabowie from "../../assets/Insta/Bowie_square.jpg";
+// import instabubblegum from "../../assets/Insta/Bubblegum_square.jpg";
+// import instaludwig from "../../assets/Insta/Ludwig_square.jpg";
+
+import zickzackpath from "../../assets/zickzack.svg";
 
 const AboutDiv = styled.div`
   display: flex;
@@ -18,6 +20,12 @@ const AboutDiv = styled.div`
   p {
     width: 90%;
   }
+
+  img {
+    width: 90%;
+    max-width: 250px;
+    margin: 1rem auto;
+  }
 `;
 
 const About = () => (
@@ -30,11 +38,12 @@ const About = () => (
       of the journeys, I now know how to use technology to make my digital
       dreams come true.
     </p>
-    <Picturerow>
+    <img src={zickzackpath} alt="zickzack" />
+
+    {/* <Picturerow>
       <img src={instabowie} alt="Laura" />
       <img src={instabubblegum} alt="Laura" />
-      <img src={instaludwig} alt="Museum Ludwig" />
-    </Picturerow>
+    </Picturerow> */}
     <p>
       Apart from working a lot on my computer, one of my main interests is
       musik. I enjoy going to concerts (hopefully again after corona) and
@@ -42,6 +51,11 @@ const About = () => (
       had a blog to write about new discoverys. Apart from music I also enjoy
       other aspects of arts and cultur such as performing arts.{" "}
     </p>
+    <img src={zickzackpath} alt="zickzack" />
+
+    {/* <Picturerow>
+      <img src={instaludwig} alt="Museum Ludwig" />
+    </Picturerow> */}
     <p>
       Since 2011 am am voluntaryly designing posters and handouts for a small
       theater in Leverkusen called
