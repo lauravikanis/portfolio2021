@@ -9,6 +9,8 @@ const CvDiv = styled.div`
   align-items: center;
   background-color: var(--background);
   padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 `;
 
 const CV = () => (

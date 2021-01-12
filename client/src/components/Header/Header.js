@@ -6,26 +6,13 @@ const HeaderContainer = styled.header`
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 20% auto;
-  justify-content: space-around;
+  justify-content: space-between;
 
   img {
     height: 80px;
     margin-left: 2rem;
     border-radius: 50px;
-  }
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  div > h2,
-  h3 {
-    margin: 0;
-    padding: 0;
+    margin-right: 1rem;
   }
 `;
 

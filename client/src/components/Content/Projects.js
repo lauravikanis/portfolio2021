@@ -11,6 +11,8 @@ const ProjectsDiv = styled.div`
   justify-content: center;
   background-color: var(--background);
   padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   h5 {
     margin: 0;

@@ -19,9 +19,8 @@ const MainDiv = styled.div`
 
 const Page = () => (
   <>
+    <Header />
     <MainDiv>
-      <h1>Coming soon</h1>
-      <Header />
       <Menueitem>
         <h2>About</h2>
       </Menueitem>
