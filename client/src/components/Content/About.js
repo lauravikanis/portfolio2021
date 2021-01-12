@@ -37,7 +37,7 @@ const About = () => (
       Since 2011 am am doing voluntary work for a small theater in Leverkusen
       called<a href="https://www.matchboxtheater.de"> matchboxtheater</a>. Most
       of theyr posters are designed by me. and a future project of mine might be
-      to relaunch their website. I
+      to relaunch their website.
     </p>
   </AboutDiv>
 );
