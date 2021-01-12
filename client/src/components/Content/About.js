@@ -40,8 +40,9 @@ const About = () => (
       musik. I enjoy going to concerts (hopefully again after corona) and
       looking arund for new artists, tracks, and genres. A long time ago i even
       had a blog to write about new discoverys. Apart from music I also enjoy
-      other aspects of arts and cultur such as performing arts. <br />
-      <br />
+      other aspects of arts and cultur such as performing arts.{" "}
+    </p>
+    <p>
       Since 2011 am am voluntaryly designing posters and handouts for a small
       theater in Leverkusen called
       <a href="https://www.matchboxtheater.de"> matchboxtheater</a>. A future

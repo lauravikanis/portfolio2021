@@ -10,7 +10,7 @@ const Picturerow = styled.div`
   margin-bottom: 1rem;
 
   img {
-    width: 30%;
+    width: 200px;
     margin: 0.5rem;
   }
 `;
