@@ -1,55 +1,51 @@
 import React from "react";
 import styled from "styled-components/macro";
-import plantspath from "../../assets/plants.svg";
-import designpath from "../../assets/colors.svg";
-import musicpath from "../../assets/music.svg";
+import Picturerow from "../Container/Picturerow";
+
+import instabowie from "../../assets/Insta/Bowie_square.jpg";
+import instabubblegum from "../../assets/Insta/Bubblegum_square.jpg";
+import instaludwig from "../../assets/Insta/Ludwig_square.jpg";
 
 const AboutDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
-  width: 90%;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
-  img {
-    width: 100px;
-    margin: 0 auto;
+  p {
+    width: 90%;
   }
 `;
 
 const About = () => (
   <AboutDiv>
-    <h3>Hier steht ein Headline</h3>
     <p>
-      From Print Media Designer to Web Developer. Why? Because the future is
-      digital and getting faster all the time. Without the leap into the digital
-      realm, we will stand still - progress instead of stagnation. For me,
-      things no longer just have to look good, but also have to function
-      flawlessly. Still far from finished with the journey into the future, I
-      now know how to use technology to make my digital dreams come true.
+      From Print Media Designer to Web Developer. Our future is going to be
+      digital. We need progress instead of stagnation - Without the leap into
+      the digital realm, we will stand still. For me, things no longer just have
+      to look good, but also have to function flawlessly. Still far from my end
+      of the journeys, I now know how to use technology to make my digital
+      dreams come true.
     </p>
-    <img src={designpath} alt="flowers" />
+    <Picturerow>
+      <img src={instabowie} alt="Laura" />
+      <img src={instabubblegum} alt="Laura" />
+      <img src={instaludwig} alt="Museum Ludwig" />
+    </Picturerow>
     <p>
-      I am a trained media designer and have been around in the industry for
-      eight years. Before i started working full time as a graphic designer I
-      trained as a Mediengestalter for three years. In my spare time, i design
-      posters for a local theatre and manage their social media accounts.
-    </p>
-    <img src={musicpath} alt="flowers" />
-
-    <p>
-      I have always been interested in music. Whether it is a classical symphony
-      or a modern production - I refuse almost nothing. I can not compose and
-      write myself yet. But it gives me a lot of pleasure to create playlists
-      for every occasion and I can talk for hours about the latest discoveries.
-      Here you can find my Spotify profile. Apart from creating digital
-      playlists, I collect vinyl, i.e. records, and I am a real concert junkie.
-    </p>
-    <img src={plantspath} alt="flowers" />
-    <p>
-      Apart from working a lot on my computer, I love nature. In my spare time,
-      I like to collect houseplants and propagate the ones I already own. My
-      favourite plant is my fiddle leave-fig, but I love all my green babies..
+      Apart from working a lot on my computer, one of my main interests is
+      musik. I enjoy going to concerts (hopefully again after corona) and
+      looking arund for new artists, tracks, and genres. A long time ago i even
+      had a blog to write about new discoverys. Apart from music I also enjoy
+      other aspects of arts and cultur such as performing arts. <br />
+      <br />
+      Since 2011 am am voluntaryly designing posters and handouts for a small
+      theater in Leverkusen called
+      <a href="https://www.matchboxtheater.de"> matchboxtheater</a>. A future
+      goal of mine is to redesign and relaunch their website.
     </p>
   </AboutDiv>
 );

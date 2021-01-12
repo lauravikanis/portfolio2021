@@ -1,42 +1,24 @@
 import React from "react";
-import playceholder from "../../assets/blueplaceholder.svg";
+import profilepic from "../../assets/profile.jpg";
 import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
   margin-top: 1rem;
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 450px;
-  align-items: center;
+  justify-content: space-around;
 
   img {
-    height: 75px;
+    height: 80px;
     margin-left: 2rem;
-  }
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    margin-left: 2rem;
+    border-radius: 50px;
     margin-right: 2rem;
-  }
-
-  div > h2,
-  h3 {
-    margin: 0;
-    padding: 0;
   }
 `;
 
 const Header = () => (
   <HeaderContainer>
-    <img src={playceholder} alt="Laura" />
-    <div>
-      <h2>Laura Vikanis</h2>
-      <h3>Hier steht Text</h3>
-    </div>
+    <img src={profilepic} alt="Laura" />
+    <h2>Laura Vikanis</h2>
   </HeaderContainer>
 );
 

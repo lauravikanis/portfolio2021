@@ -6,13 +6,18 @@ const SkillsDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
-  width: 90%;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 `;
 
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin-top: 1rem;
 `;
 
 const Skills = () => (
