@@ -8,10 +8,10 @@ const Picturerow = styled.div`
   width: 90%;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
   img {
-    width: 175px;
+    width: 30%;
     margin: 0.5rem;
-    height: auto;
   }
 `;
 
