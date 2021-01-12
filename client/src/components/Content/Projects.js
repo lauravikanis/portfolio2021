@@ -24,14 +24,14 @@ const Projects = () => (
       Digitales Gesellenstück für das Webdevelopment Bootcamp bei neue Fische
     </h5>
     <p>
-      Mit meiner App „Walk The Line“habe ich mein großes Interesse am Thema
-      Musik verwirklichen können: Mit Hilfe der App kann man sich anhand des
-      Lieblingsgenres Informationen musikalisch wichtige Orte in Köln ausgeben
-      lassen. Es gibt eine Suche, in der man Orte suchen kann und es besteht die
-      Möglichkeit seine Lieblingslocations als Favorit speichern. Im Frontend
-      setze ich hierbei auf React und im Backend arbeite ich mit Node.js und
-      einer MongoDB Datenbank. In Zukunft habe ich vor weiter Datensätze in die
-      Datenbank zu fügen und so die User Experience zu erweitern.
+      With my app &quot;Walk The Line&quot; I was able to realize one of my
+      great interest: Music. The App gives you information about important
+      music-places in Cologne based on your favorite genre. There is a search
+      function where you can look for locations and you also have the
+      possibility to save your favorite locationss. The frontend is React-based
+      and the backend works with Node.js and a MongoDB database. In the future I
+      plan to add more data records to the database and thus extend the user
+      experience.
     </p>
     <Projectdetails>
       <Detailcontainer>
