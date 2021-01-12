@@ -11,6 +11,7 @@ const Picturerow = styled.div`
   img {
     width: 175px;
     margin: 0.5rem;
+    height: auto;
   }
 `;
 
