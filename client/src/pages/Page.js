@@ -15,6 +15,7 @@ const MainDiv = styled.div`
   justify-content: center;
   max-width: 900px;
   width: 80%;
+  background-color: var(--background);
 `;
 
 const Page = () => (
@@ -43,7 +44,7 @@ const Page = () => (
       <Contact />
     </MainDiv>
     <Footer>
-      <h5>Made by Laura Vikanis 2021</h5>
+      <h5>Laura Vikanis 2021</h5>
     </Footer>
   </>
 );

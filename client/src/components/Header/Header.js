@@ -4,15 +4,14 @@ import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
   margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 20% auto;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
 
   img {
     height: 80px;
     margin-left: 2rem;
     border-radius: 50px;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 `;
 

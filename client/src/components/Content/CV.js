@@ -7,7 +7,6 @@ const CvDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
   padding: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;

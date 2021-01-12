@@ -21,7 +21,8 @@ body {
  }
  
  p{
-   font-size:1.2rem;  
+   font-size:1.2rem; 
+   line-height:1.5; 
    }
 
 h1, h2, h3, h4{

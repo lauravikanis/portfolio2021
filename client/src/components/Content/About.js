@@ -11,20 +11,24 @@ const AboutDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
   padding: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  p {
+    width: 90%;
+  }
 `;
 
 const About = () => (
   <AboutDiv>
     <p>
-      From Print Media Designer to Web Developer. The future is digital.
-      Progress instead of stagnation - Without the leap into the digital realm,
-      we will stand still. For me, things no longer just have to look good, but
-      also have to function flawlessly. Still far from my end of the journeys, I
-      now know how to use technology to make my digital dreams come true.
+      From Print Media Designer to Web Developer. Our future is going to be
+      digital. We need progress instead of stagnation - Without the leap into
+      the digital realm, we will stand still. For me, things no longer just have
+      to look good, but also have to function flawlessly. Still far from my end
+      of the journeys, I now know how to use technology to make my digital
+      dreams come true.
     </p>
     <Picturerow>
       <img src={instabowie} alt="Laura" />
@@ -32,14 +36,16 @@ const About = () => (
       <img src={instaludwig} alt="Museum Ludwig" />
     </Picturerow>
     <p>
-      Apart from working a lot on my computer, I love discovering new musik and
-      and enjoy going to concerts (hopefully again after corona). I like looking
-      around museums and visiting theaters. <br />
+      Apart from working a lot on my computer, one of my main interests is
+      musik. I enjoy going to concerts (hopefully again after corona) and
+      looking arund for new artists, tracks, and genres. A long time ago i even
+      had a blog to write about new discoverys. Apart from music I also enjoy
+      other aspects of arts and cultur such as performing arts. <br />
       <br />
-      Since 2011 am am doing voluntary work for a small theater in Leverkusen
-      called<a href="https://www.matchboxtheater.de"> matchboxtheater</a>. Most
-      of theyr posters are designed by me. and a future project of mine might be
-      to relaunch their website.
+      Since 2011 am am voluntaryly designing posters and handouts for a small
+      theater in Leverkusen called
+      <a href="https://www.matchboxtheater.de"> matchboxtheater</a>. A future
+      goal of mine is to redesign and relaunch their website.
     </p>
   </AboutDiv>
 );
