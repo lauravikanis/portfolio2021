@@ -12,7 +12,6 @@ const Picturerow = styled.div`
   img {
     height: 200px;
     margin: 0.5rem;
-    /* object-fit: cover; */
   }
 `;
 
