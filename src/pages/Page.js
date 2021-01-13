@@ -22,8 +22,8 @@ const MainDiv = styled.div`
 const Page = () => (
   <>
     <Navigation />
-    <Header />
     <MainDiv>
+      <Header />
       <Menueitem id="about">
         <h2>About</h2>
       </Menueitem>

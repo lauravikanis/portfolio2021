@@ -3,16 +3,17 @@ import profilepic from "../../assets/profile.jpg";
 import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
   margin-bottom: 1.5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: var(--background);
 
   img {
     height: 80px;
     border-radius: 50px;
-    margin-right: 2rem;
+    margin-right: 10%;
   }
 
   h2,

@@ -14,9 +14,16 @@ const NavContainer = styled.header`
   width: 100vw;
   padding: 0.5rem 10%;
 
+  position: fixed;
+  top: 0;
+
   a {
     color: white;
     margin: 0 0.5rem;
+    font-size: 0.83em;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
   }
 `;
 
