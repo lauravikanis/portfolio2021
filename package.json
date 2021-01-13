@@ -2,6 +2,17 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "description": "Personal website of Laura Vikanis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauravikanis/start_template.git"
+  },
+  "author": "Laura Vikanis",
+  "license": "MIT",
+  "homepage": "https://www.lauravikans.de",
+  "bugs": {
+    "url": "https://github.com/lauravikanis/start_template/issues"
+  },
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@storybook/addon-actions": "^6.1.11",
@@ -20,6 +31,9 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4",
     "eslint-config-prettier": "^6.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,17 +65,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001",
-  "devDependencies": {
-    "eslint": "^7.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lauravikanis/start_template.git"
-  },
-  "author": "Laura Vikanis",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lauravikanis/start_template/issues"
-  }
+  "proxy": "http://localhost:3001"
 }
