@@ -4,6 +4,7 @@ import githubpath from "../../assets/github.svg";
 import herokupath from "../../assets/heroku.svg";
 import Projectdetails from "../Container/Projectdetails.js.js";
 import Detailcontainer from "../Container/Detailcontainer";
+import Divider from "../Divider";
 
 const ProjectsDiv = styled.div`
   display: flex;
@@ -59,7 +60,7 @@ const Projects = () => (
         </Detailcontainer>
       </Projectdetails>
     </Project>
-
+    <Divider />
     <Project>
       <h3>lauravikanis.de</h3>
       <h5>personal Website</h5>
