@@ -24,15 +24,15 @@ const Page = () => (
     <Navigation />
     <Header />
     <MainDiv>
-      <Menueitem>
+      <Menueitem id="about">
         <h2>About</h2>
       </Menueitem>
       <About />
-      <Menueitem>
+      <Menueitem id="skills">
         <h2>Skills</h2>
       </Menueitem>
       <Skills />
-      <Menueitem>
+      <Menueitem id="projects">
         <h2>Projects</h2>
       </Menueitem>
       <Projects />
@@ -40,7 +40,7 @@ const Page = () => (
         <h2>CV</h2>
       </Menueitem>
       <CV /> */}
-      <Menueitem secondary>
+      <Menueitem secondary id="contact">
         <h2>Contact</h2>
       </Menueitem>
       <Contact />

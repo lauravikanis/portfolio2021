@@ -14,17 +14,18 @@ const NavContainer = styled.header`
   width: 100vw;
   padding: 0.5rem 10%;
 
-  h5 {
+  a {
+    color: white;
     margin: 0 0.5rem;
   }
 `;
 
 const Navigation = () => (
   <NavContainer>
-    <h5>About</h5>
-    <h5>Skills</h5>
-    <h5>Projects</h5>
-    <h5>Contact</h5>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </NavContainer>
 );
 
