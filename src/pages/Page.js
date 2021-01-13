@@ -7,6 +7,7 @@ import Contact from "../components/Content/Contact";
 import Projects from "../components/Content/Projects";
 import Skills from "../components/Content/Skills";
 import Footer from "../components/Footer/Footer";
+import Navigation from "../components/Navigation/Navigation";
 // import CV from "../components/Content/CV";
 
 const MainDiv = styled.div`
@@ -20,17 +21,18 @@ const MainDiv = styled.div`
 
 const Page = () => (
   <>
-    <Header />
+    <Navigation />
     <MainDiv>
-      <Menueitem>
+      <Header />
+      <Menueitem id="about">
         <h2>About</h2>
       </Menueitem>
       <About />
-      <Menueitem>
+      <Menueitem id="skills">
         <h2>Skills</h2>
       </Menueitem>
       <Skills />
-      <Menueitem>
+      <Menueitem id="projects">
         <h2>Projects</h2>
       </Menueitem>
       <Projects />
@@ -38,7 +40,7 @@ const Page = () => (
         <h2>CV</h2>
       </Menueitem>
       <CV /> */}
-      <Menueitem secondary>
+      <Menueitem secondary id="contact">
         <h2>Contact</h2>
       </Menueitem>
       <Contact />
