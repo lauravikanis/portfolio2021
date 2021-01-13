@@ -54,5 +54,14 @@
   "proxy": "http://localhost:3001",
   "devDependencies": {
     "eslint": "^7.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauravikanis/start_template.git"
+  },
+  "author": "Laura Vikanis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lauravikanis/start_template/issues"
   }
 }
