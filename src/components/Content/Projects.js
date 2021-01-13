@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 import githubpath from "../../assets/github.svg";
 import herokupath from "../../assets/heroku.svg";
-import Projectdetails from "../Container/Projectdetails.js";
+import Projectdetails from "../Container/Projectdetails.js.js";
 import Detailcontainer from "../Container/Detailcontainer";
 
 const ProjectsDiv = styled.div`
