@@ -44,7 +44,7 @@ const Page = () => (
       <Contact />
     </MainDiv>
     <Footer>
-      <h5>Laura Vikanis 2021</h5>
+      <h5>- Laura Vikanis 2021 -</h5>
     </Footer>
   </>
 );

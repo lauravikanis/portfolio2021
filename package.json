@@ -1,64 +1,69 @@
 {
-  "name": "start_template",
+  "name": "client",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "description": "a starter Template",
-  "main": "index.js",
-  "dependencies": {
-    "concurrently": "^5.3.0",
-    "express": "^4.17.1",
-    "init": "^0.1.2",
-    "nodemon": "^2.0.6",
-    "postinstall": "^0.7.0",
-    "prettier": "^2.2.0"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.8.1",
-    "@typescript-eslint/parser": "^4.8.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.1"
-  },
-  "scripts": {
-    "postinstall": "cd client && npm install",
-    "build": "cd client && npm run build && npm run build-storybook",
-    "test:watch": "cd client && npm run test:watch",
-    "test": "npm run lint && npm run prettier && cd client && npm test",
-    "lint": "eslint . --ext .js",
-    "prettify": "prettier --write .",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "client": "cd client && npm start",
-    "prettier": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,html,css,json}\"",
-    "storybook": "cd client && npm run storybook",
-    "server": "nodemon server.js",
-    "start": "node server.js"
-  },
+  "description": "Personal website of Laura Vikanis",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lauravikanis/start_template.git"
   },
   "author": "Laura Vikanis",
   "license": "MIT",
+  "homepage": "https://www.lauravikans.de",
   "bugs": {
     "url": "https://github.com/lauravikanis/start_template/issues"
   },
-  "homepage": "https://github.com/lauravikanis/start_template#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm test"
-    }
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/node-logger": "^6.1.11",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.11",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "eslint-plugin-react": "^7.21.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "eslint-config-prettier": "^6.11.0"
   },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
-  }
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:watch": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "prettier": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,html,css,json}\"",
+    "lint": "eslint . --ext .js",
+    "prettify": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
 }

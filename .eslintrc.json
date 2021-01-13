@@ -1,8 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "node": true
+    "es6": true
   },
   "extends": [
     "react-app",
@@ -18,11 +17,6 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "settings": {
-    "react": {
-      "version": "latest"
-    }
-  },
   "rules": {
     "no-unused-vars": [
       "warn",
