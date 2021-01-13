@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components/macro";
-import githubpath from "../../assets/github.svg";
-import herokupath from "../../assets/heroku.svg";
 import Projectdetails from "../Container/Projectdetails.js.js";
 import Detailcontainer from "../Container/Detailcontainer";
 import Divider from "../Divider";
+
+import githubpath from "../../assets/github.svg";
+import herokupath from "../../assets/heroku.svg";
+import deploymentpath from "../../assets/deployment.svg";
 
 const ProjectsDiv = styled.div`
   display: flex;
@@ -33,7 +35,8 @@ const Projects = () => (
     <Project>
       <h3>Walk the Line</h3>
       <h5>
-        Digitales Gesellenstück für das Webdevelopment Bootcamp bei neue Fische
+        Digital &quot;Gesellenstück&quot; for the webdevelopment bootcamp at
+        neuefische
       </h5>
       <p>
         With my app &quot;Walk The Line&quot; I was able to build an App around
@@ -74,7 +77,7 @@ const Projects = () => (
         </Detailcontainer>
         <Detailcontainer>
           <a href="https://www.lauravikanis.de/">
-            <img src={herokupath} alt="deployment" />
+            <img src={deploymentpath} alt="deployment" />
             Deployment
           </a>
         </Detailcontainer>
