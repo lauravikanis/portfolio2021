@@ -29,7 +29,7 @@ const ContactDiv = styled.div`
 
 const Contact = () => (
   <ContactDiv>
-    <h3>Want to get into touch?</h3>
+    <h3>Want to get in touch?</h3>
     <Projectdetails>
       <Detailcontainer>
         <a href="https://github.com/lauravikanis">
