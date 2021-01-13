@@ -45,8 +45,11 @@ const About = () => (
     <p>
       Since 2011 I am voluntarily designing posters and handouts for a small
       theater in Leverkusen called
-      <a href="https://www.matchboxtheater.de"> matchboxtheater</a>. A future
-      goal of mine is to redesign and relaunch their website.
+      <a href="https://www.matchboxtheater.de" target="_blank:">
+        {" "}
+        matchboxtheater
+      </a>
+      . A future goal of mine is to redesign and relaunch their website.
     </p>
   </AboutDiv>
 );
