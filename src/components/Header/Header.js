@@ -6,6 +6,7 @@ const HeaderContainer = styled.header`
   margin-top: 1rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   img {
     height: 80px;
@@ -13,12 +14,20 @@ const HeaderContainer = styled.header`
     border-radius: 50px;
     margin-right: 2rem;
   }
+
+  h2,
+  h5 {
+    margin: 0;
+  }
 `;
 
 const Header = () => (
   <HeaderContainer>
     <img src={profilepic} alt="Laura" />
-    <h2>Laura Vikanis</h2>
+    <div>
+      <h2>Laura Vikanis</h2>
+      <h5>Web Development / Design</h5>
+    </div>
   </HeaderContainer>
 );
 

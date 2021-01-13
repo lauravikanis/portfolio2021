@@ -33,7 +33,7 @@ h1, h2, h3, h4{
 
 h3 {margin-bottom:0.25rem}
 
-
+a{color:black;}
 `;
 
 export default GlobalStyle;
