@@ -32,13 +32,13 @@ const Contact = () => (
     <h3>Want to get in touch?</h3>
     <Projectdetails>
       <Detailcontainer>
-        <a href="https://github.com/lauravikanis">
+        <a href="https://github.com/lauravikanis" target="_blank:">
           <img src={githubpath} alt="github" />
           GitHub
         </a>
       </Detailcontainer>
       <Detailcontainer>
-        <a href="https://www.linkedin.com/in/lauravikanis/">
+        <a href="https://www.linkedin.com/in/lauravikanis/" target="_blank:">
           <img src={linkedinpath} alt="linkedin" />
           LinkedIn
         </a>
@@ -46,20 +46,20 @@ const Contact = () => (
     </Projectdetails>
     <Projectdetails>
       <Detailcontainer>
-        <a href="https://www.facebook.com/laura.vikanis/">
+        <a href="https://www.facebook.com/laura.vikanis/" target="_blank:">
           <img src={facebookpath} alt="facebook" />
           Facebook
         </a>
       </Detailcontainer>
       <Detailcontainer>
-        <a href="https://www.instagram.com/loeremoehre/">
+        <a href="https://www.instagram.com/loeremoehre/" target="_blank:">
           <img src={instagrampath} alt="instagram" />
           Instagram
         </a>
       </Detailcontainer>
       <Detailcontainer>
         {" "}
-        <a href="https://twitter.com/loeremoehre">
+        <a href="https://twitter.com/loeremoehre" target="_blank:">
           <img src={twitterpath} alt="twitter" />
           Twitter
         </a>

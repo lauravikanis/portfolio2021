@@ -50,13 +50,16 @@ const Projects = () => (
       </p>
       <Projectdetails>
         <Detailcontainer>
-          <a href="https://github.com/lauravikanis/WalkTheLine">
+          <a
+            href="https://github.com/lauravikanis/WalkTheLine"
+            target="_blank:"
+          >
             <img src={githubpath} alt="github" />
             GitHub
           </a>
         </Detailcontainer>
         <Detailcontainer>
-          <a href="https://walktheline.herokuapp.com/">
+          <a href="https://walktheline.herokuapp.com/" target="_blank:">
             <img src={herokupath} alt="deployment" />
             Deployment
           </a>
@@ -70,13 +73,16 @@ const Projects = () => (
       <p>Crate-React-App based personal portfolio</p>
       <Projectdetails>
         <Detailcontainer>
-          <a href="https://github.com/lauravikanis/WalkTheLine">
+          <a
+            href="https://github.com/lauravikanis/WalkTheLine"
+            target="_blank:"
+          >
             <img src={githubpath} alt="github" />
             GitHub
           </a>
         </Detailcontainer>
         <Detailcontainer>
-          <a href="https://www.lauravikanis.de/">
+          <a href="https://www.lauravikanis.de/" target="_blank:">
             <img src={deploymentpath} alt="deployment" />
             Deployment
           </a>
