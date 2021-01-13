@@ -3,14 +3,14 @@ import profilepic from "../../assets/profile.jpg";
 import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   img {
     height: 80px;
-    margin-left: 2rem;
     border-radius: 50px;
     margin-right: 2rem;
   }

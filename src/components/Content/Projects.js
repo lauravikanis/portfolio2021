@@ -66,7 +66,7 @@ const Projects = () => (
     <Divider />
     <Project>
       <h3>lauravikanis.de</h3>
-      <h5>personal Website</h5>
+      <h5>Personal Website</h5>
       <p>Crate-React-App based personal portfolio</p>
       <Projectdetails>
         <Detailcontainer>

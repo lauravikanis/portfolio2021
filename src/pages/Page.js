@@ -7,6 +7,7 @@ import Contact from "../components/Content/Contact";
 import Projects from "../components/Content/Projects";
 import Skills from "../components/Content/Skills";
 import Footer from "../components/Footer/Footer";
+import Navigation from "../components/Navigation/Navigation";
 // import CV from "../components/Content/CV";
 
 const MainDiv = styled.div`
@@ -20,6 +21,7 @@ const MainDiv = styled.div`
 
 const Page = () => (
   <>
+    <Navigation />
     <Header />
     <MainDiv>
       <Menueitem>
