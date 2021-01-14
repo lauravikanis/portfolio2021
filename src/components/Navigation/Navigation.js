@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
+import { Link } from "react-scroll";
 
 const NavContainer = styled.header`
   display: flex;
@@ -23,16 +24,41 @@ const NavContainer = styled.header`
     font-size: 0.83em;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
-    text-decoration: none;
   }
 `;
 
 const Navigation = () => (
   <NavContainer>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <Link to="about" activeClass="active" spy={true} smooth={true} offset={-50}>
+      About
+    </Link>
+    <Link
+      to="skills"
+      activeClass="active"
+      spy={true}
+      smooth={true}
+      offset={-50}
+    >
+      Skills
+    </Link>
+    <Link
+      to="projects"
+      activeClass="active"
+      spy={true}
+      smooth={true}
+      offset={-50}
+    >
+      Projects
+    </Link>
+    <Link
+      to="contact"
+      activeClass="active"
+      spy={true}
+      smooth={true}
+      offset={-50}
+    >
+      Contact
+    </Link>
   </NavContainer>
 );
 
