@@ -12,6 +12,7 @@ const HeaderContainer = styled.header`
 
   img {
     height: 80px;
+    width: 80px;
     border-radius: 50px;
     margin-right: 10%;
   }
