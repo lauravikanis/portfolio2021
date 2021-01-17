@@ -3,7 +3,7 @@ import bg from "./assets/background.svg";
 const GlobalStyle = createGlobalStyle`
 
 :root {
-  --titleFont: "'Poppins", sans-serif;
+  --titleFont: 'Roboto Mono', monospace;
   --textFont: "Roboto", sans-serif;
   --background: #FCFCFC;
   --text-color: #707070;
