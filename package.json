@@ -21,9 +21,9 @@
     "@storybook/node-logger": "^6.1.14",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.14",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.2.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.21.5",
     "react": "^17.0.1",
@@ -46,7 +46,7 @@
     "workbox-streams": "^6.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.17.0"
+    "eslint": "^7.18.0"
   },
   "scripts": {
     "start": "react-scripts start",
