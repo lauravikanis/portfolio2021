@@ -6,8 +6,7 @@ const Picturerow = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   width: 90%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 5% auto;
 
   img {
     height: 200px;

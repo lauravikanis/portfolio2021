@@ -23,14 +23,29 @@ const AboutDiv = styled.div`
 const About = () => (
   <AboutDiv>
     <p>
-      From Print Media Designer to Web Developer. Our future is going to be
+      From Print Media Designer to Web Developer? The future is going to be
       digital. We need progress instead of stagnation - Without the leap into
       the digital realm, we will stand still. For me, things no longer just have
-      to look good, but also have to function flawlessly. Still far from my end
-      of the journeys I now know how to use technology to make my digital dreams
-      come true.
+      to look good, but also have to function flawlessly.
     </p>
     <Divider />
+    <p>
+      During last couple of years I often asked myself: Is my job right for me?
+      Last year decided that time moves on and I have to change something. I
+      couldn‘t go on being a Graphic Designer. There had to be a chance for a
+      new beginning. Starting in Summer 2020 I attended a 4-week long workshop
+      at shecodes.io where I learned the basics of HTML, CSS and basic
+      Javascript. Afterwards, I wanted to challenge myself further: I decided to
+      self-teach myself coding. In autumn I attended the Web Developer Bootcamp
+      at neue Fische, which I completed in December/January. During this time I
+      found myself enjoying coding a lot - it just felt right. I didn‘t only
+      have to produce content which looked good, I am now able to produce
+      functional components which do the things I tell them to do.
+    </p>
+    <Picturerow>
+      <img src={instabowie} alt="pusher tony Mural at Cologne Ehrenfeld" />
+      <img src={instaludwig} alt="Rooftopterrace at Museum Ludwig" />
+    </Picturerow>{" "}
     <p>
       Apart from working a lot on my computer, one of my main interests is
       music. I enjoy going to concerts (hopefully again after corona) and
@@ -38,10 +53,7 @@ const About = () => (
       blog to write about new discoverys. Apart from music I also enjoy other
       aspects of arts and cultur such as visual and performing arts.
     </p>
-    <Picturerow>
-      <img src={instabowie} alt="pusher tony Mural at Cologne Ehrenfeld" />
-      <img src={instaludwig} alt="Rooftopterrace at Museum Ludwig" />
-    </Picturerow>
+    <Divider />
     <p>
       Since 2011 I am voluntarily designing posters and handouts for a small
       theater in Leverkusen called
