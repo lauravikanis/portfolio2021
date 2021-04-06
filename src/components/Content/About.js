@@ -23,10 +23,7 @@ const AboutDiv = styled.div`
 const About = () => (
   <AboutDiv>
     <p>
-      From Print Media Designer to Web Developer? The future is going to be
-      digital. We need progress instead of stagnation - Without the leap into
-      the digital realm, we will stand still. For me, things no longer just have
-      to look good, but also have to function flawlessly.
+      Laura is a Web Developer and Graphic Designer based in Cologne, Germany
     </p>
     <Divider />
     <p>
