@@ -15,12 +15,6 @@
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
-    "@storybook/addon-actions": "^6.2.3",
-    "@storybook/addon-essentials": "^6.2.3",
-    "@storybook/addon-links": "^6.2.3",
-    "@storybook/node-logger": "^6.2.3",
-    "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.2.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.1",
@@ -55,8 +49,6 @@
     "test:watch": "react-scripts test",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
     "prettier": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,html,css,json}\"",
     "lint": "eslint . --ext .js",
     "prettify": "prettier --write ."
