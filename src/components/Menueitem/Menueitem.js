@@ -4,13 +4,14 @@ import PropTypes from "prop-types";
 const MenueItem = styled.div`
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--background);
+  background-color: var(--primary-color);
   border-radius: 15px;
   text-align: center;
   margin-top: 5rem;
 
   h2 {
-    margin: 0.25rem;
+    margin: 0.2rem;
   }
 `;
 
