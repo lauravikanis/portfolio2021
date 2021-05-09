@@ -22,9 +22,7 @@ const AboutDiv = styled.div`
 
 const About = () => (
   <AboutDiv>
-    <p>
-      Laura is a Web Developer and Graphic Designer based in Cologne, Germany
-    </p>
+    <p>Graphic Designer turned Web Developer based in Cologne, Germany</p>
     <Divider />
     <p>
       During last couple of years I often asked myself: Is my job right for me?
@@ -40,7 +38,7 @@ const About = () => (
       functional components which do the things I tell them to do.
     </p>
     <Picturerow>
-      <img src={instabowie} alt="pusher tony Mural at Cologne Ehrenfeld" />
+      <img src={instabowie} alt="pusher tony mural at Cologne Ehrenfeld" />
       <img src={instaludwig} alt="Rooftopterrace at Museum Ludwig" />
     </Picturerow>{" "}
     <p>

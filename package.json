@@ -41,7 +41,8 @@
     "workbox-streams": "^6.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.18.0",
+    "prettier": "2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

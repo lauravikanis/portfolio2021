@@ -27,9 +27,16 @@ body {
 
 h1, h2, h3, h4{
     font-family: 'Roboto Mono', monospace;  
-    /* text-align: center; */
     text-transform: uppercase;
 }
+
+h1{
+    font-size:500%
+}
+h2{
+    font-size:200%
+}
+
 
 h3 {margin-bottom:0.25rem}
 
