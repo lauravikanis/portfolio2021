@@ -4,12 +4,10 @@ import PropTypes from "prop-types";
 const MenueItem = styled.div`
   display: flex;
   justify-content: center;
-  background-color: ${(props) =>
-    props.secondary ? "var(--secondary-color)" : "var(--primary-color)"};
-  color: white;
+  color: var(--primary-color);
   border-radius: 15px;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 5rem;
 
   h2 {
     margin: 0.25rem;

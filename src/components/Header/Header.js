@@ -3,18 +3,31 @@ import profilepic from "../../assets/IMG_0340_web.jpg";
 import styled from "styled-components/macro";
 
 const HeaderContainer = styled.header`
-  margin-top: 3.5rem;
+  margin-top: 7rem;
   margin-bottom: 1.5rem;
   display: flex;
+  flex-direction:row;
   justify-content: center;
   align-items: center;
   background-color: var(--background);
+
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
   img {
     height: 150px;
     width: 150px;
     border-radius: 100px;
     margin-right: 10%;
+
+    @media (max-width: 768px) {
+      margin-right: 0;
+
+  }
   }
 
   h1,

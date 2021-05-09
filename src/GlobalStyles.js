@@ -31,6 +31,14 @@ h1, h2, h3, h4{
     text-transform: uppercase;
 }
 
+h1{
+    font-size:500%
+}
+h2{
+    font-size:250%
+}
+
+
 h3 {margin-bottom:0.25rem}
 
 a {color:black;}
