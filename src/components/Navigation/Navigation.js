@@ -9,14 +9,14 @@ const NavContainer = styled.header`
   justify-content: space-around;
   margin-top: 0;
   margin-bottom: 1rem;
-
   color: white;
   background-color: black;
   width: 100vw;
   padding: 0.5rem 10%;
-
   position: fixed;
   top: 0;
+  transform: skewX(0deg);
+  z-index: 1;
 
   a {
     color: white;

@@ -24,13 +24,36 @@ const Skills = () => (
   <SkillsDiv>
     <h3>TechStack</h3>
     <Container>
-      <Skillcontainer>HTML 5</Skillcontainer>
-      <Skillcontainer>CSS 3</Skillcontainer>
-      <Skillcontainer>Javascript</Skillcontainer>
-      <Skillcontainer>React 17</Skillcontainer>
-      <Skillcontainer>MongoDB</Skillcontainer>
-      <Skillcontainer>Node.js</Skillcontainer>
-      <Skillcontainer>Git</Skillcontainer>
+      <Skillcontainer>
+        <h5>HTML 5</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>CSS 3</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Javascript</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Typescript</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>React</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Styled Components</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Tailwind</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>MongoDB</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Node.js</h5>
+      </Skillcontainer>
+      <Skillcontainer>
+        <h5>Git</h5>
+      </Skillcontainer>
     </Container>
   </SkillsDiv>
 );

@@ -1,9 +1,5 @@
 import React from "react";
 import styled from "styled-components/macro";
-import Picturerow from "../Container/Picturerow";
-
-import instabowie from "../../assets/Insta/Bowie_square.jpg";
-import instaludwig from "../../assets/Insta/Ludwig_square.jpg";
 import Divider from "../Divider";
 
 const AboutDiv = styled.div`
@@ -14,6 +10,7 @@ const AboutDiv = styled.div`
   padding: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  background-color: var(--background);
 
   p {
     width: 90%;
@@ -22,41 +19,36 @@ const AboutDiv = styled.div`
 
 const About = () => (
   <AboutDiv>
-    <p>Graphic Designer turned Web Developer based in Cologne, Germany</p>
-    <Divider />
     <p>
-      During last couple of years I often asked myself: Is my job right for me?
-      Last year decided that time moves on and I have to change something. I
-      couldn‘t go on being a Graphic Designer. There had to be a chance for a
-      new beginning. Starting in Summer 2020 I attended a 4-week long workshop
-      at shecodes.io where I learned the basics of HTML, CSS and basic
-      Javascript. Afterwards, I wanted to challenge myself further: I decided to
-      self-teach myself coding. In autumn I attended the Web Developer Bootcamp
-      at neue Fische, which I completed in December/January. During this time I
-      found myself enjoying coding a lot - it just felt right. I didn‘t only
-      have to produce content which looked good, I am now able to produce
-      functional components which do the things I tell them to do.
+      Switching careers during a global pandemic is impossible? No, it is not!
+      Starting in Summer 2020 I attended a 4-week long workshop at shecodes.io
+      where I learned the basics of HTML, CSS and basic Javascript. Afterwards,
+      I wanted to challenge myself further: I decided to self-teach myself
+      coding. In autumn I attended the Web Developer Bootcamp at neue Fische,
+      which I completed in December/January. A few months later I got a
+      full-time job at a tech company where I am now part of an agile
+      development team. Even if in the last couple of months my learning curve
+      was very steep and I learned a lot I do not intend on slowing down.
     </p>
-    <Picturerow>
+    <Divider />
+    {/* <Picturerow>
       <img src={instabowie} alt="pusher tony mural at Cologne Ehrenfeld" />
       <img src={instaludwig} alt="Rooftopterrace at Museum Ludwig" />
-    </Picturerow>{" "}
+    </Picturerow>{" "} */}
     <p>
       Apart from working a lot on my computer, one of my main interests is
       music. I enjoy going to concerts (hopefully again after corona) and
-      looking for new artists, tracks, and genres. A long time ago i even had a
-      blog to write about new discoverys. Apart from music I also enjoy other
-      aspects of arts and cultur such as visual and performing arts.
+      looking for new artists, tracks, and genres. Apart from music I also enjoy
+      other aspects of arts and cultur such as visual and performing arts.
     </p>
     <Divider />
     <p>
       Since 2011 I am voluntarily designing posters and handouts for a small
       theater in Leverkusen called
       <a href="https://www.matchboxtheater.de" target="_blank:">
-        {" "}
         matchboxtheater
       </a>
-      . A future goal of mine is to redesign and relaunch their website.
+      .
     </p>
   </AboutDiv>
 );

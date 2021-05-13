@@ -10,6 +10,7 @@ const HeaderContainer = styled.header`
   justify-content: center;
   align-items: center;
   background-color: var(--background);
+  height: 60vh;
 
   @media (max-width: 768px) {
     flex-direction: column;

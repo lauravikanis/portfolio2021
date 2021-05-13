@@ -36,11 +36,7 @@ const Page = () => (
         <h2>Projects</h2>
       </Menueitem>
       <Projects />
-      {/* <Menueitem>
-        <h2>CV</h2>
-      </Menueitem>
-      <CV /> */}
-      <Menueitem secondary id="contact">
+      <Menueitem id="contact">
         <h2>Contact</h2>
       </Menueitem>
       <Contact />

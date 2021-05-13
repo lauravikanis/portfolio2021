@@ -6,17 +6,17 @@ const MenueItem = styled.div`
   justify-content: center;
   color: var(--background);
   background-color: var(--primary-color);
-  border-radius: 15px;
   text-align: center;
   margin-top: 5rem;
+  transform: skewX(-25deg);
 
   h2 {
     margin: 0.2rem;
+    transform: skewX(25deg);
   }
 `;
 
 MenueItem.propTypes = {
-  secondary: PropTypes.bool,
   headine: PropTypes.string,
 };
 
