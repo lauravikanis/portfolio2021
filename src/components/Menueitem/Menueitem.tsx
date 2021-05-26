@@ -1,5 +1,4 @@
 import styled from "styled-components/macro";
-import PropTypes from "prop-types";
 
 const MenueItem = styled.div`
   display: flex;
@@ -15,9 +14,5 @@ const MenueItem = styled.div`
     transform: skewX(25deg);
   }
 `;
-
-MenueItem.propTypes = {
-  headine: PropTypes.string,
-};
 
 export default MenueItem;

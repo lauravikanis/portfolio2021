@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import styled from "styled-components/macro";
 
 const Button = styled.a`
@@ -28,7 +27,4 @@ const Button = styled.a`
   }
 `;
 
-Button.propTypes = {
-  value: PropTypes.string,
-};
 export default Button;

@@ -26,3 +26,6 @@ yarn-error.log*
 # cache
 .eslintcache
 .cache
+
+# eigene
+/src/react-app-env.d.ts

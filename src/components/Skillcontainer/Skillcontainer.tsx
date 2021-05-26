@@ -1,7 +1,6 @@
 import styled from "styled-components/macro";
-import PropTypes from "prop-types";
 
-const Skill = styled.div`
+const OneSkill = styled.div`
   display: flex;
   justify-content: center;
   background-color: var(--action-color);
@@ -19,8 +18,6 @@ const Skill = styled.div`
   }
 `;
 
-Skill.propTypes = {
-  name: PropTypes.string,
-};
+const Skill = (name: any) => <OneSkill>{name}</OneSkill>;
 
 export default Skill;

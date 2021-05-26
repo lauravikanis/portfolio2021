@@ -8,7 +8,7 @@ import instagrampath from "../../assets/insta.svg";
 import githubpath from "../../assets/github.svg";
 import twitterpath from "../../assets/twitter.svg";
 
-import Projectdetails from "../Container/Projectdetails.js";
+import Projectdetails from "../Container/Projectdetails";
 import Detailcontainer from "../Container/Detailcontainer";
 
 const ContactDiv = styled.div`
