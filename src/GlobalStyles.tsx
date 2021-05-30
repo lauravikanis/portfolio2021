@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components/macro";
+import { createGlobalStyle } from "styled-components/";
 import bg from "./assets/background.svg";
 const GlobalStyle = createGlobalStyle`
 
@@ -17,7 +17,9 @@ body {
   background-color: var(--background);
   background-image: url(${bg});
   background-repeat: repeat-y;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
  
  p{
