@@ -22,6 +22,7 @@
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "@types/react-scroll": "^1.8.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.21.5",
     "immer": "^8.0.1",
@@ -43,16 +44,12 @@
     "workbox-range-requests": "^6.0.2",
     "workbox-routing": "^6.0.2",
     "workbox-strategies": "^6.0.2",
-    "workbox-streams": "^6.0.2"
-  },
-  "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/node": "^14.14.41",
-    "@types/react": "^17.0.8",
-    "@types/react-dom": "^17.0.5",
+    "workbox-streams": "^6.0.2",
     "@types/react-leaflet": "^2.8.1",
     "@types/react-router-dom": "^5.1.7",
-    "@types/styled-components": "^5.1.9",
+    "@types/styled-components": "^5.1.9"
+  },
+  "devDependencies": {
     "eslint": "^7.18.0",
     "prettier": "2.2.1"
   },
