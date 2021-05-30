@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
-import Projectdetails from "../Container/Projectdetails.js.js";
+import Projectdetails from "../Container/Projectdetails.js";
 import Detailcontainer from "../Container/Detailcontainer";
 import Divider from "../Divider";
 
