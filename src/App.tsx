@@ -118,7 +118,7 @@ const ContactDiv = styled.div`
   }
 `;
 
-function App() {
+const App = () => {
   return (
     <>
       <GlobalStyle />
@@ -153,13 +153,13 @@ function App() {
             <img src={zickzackpath} alt="zickzack" />
             <p>
               Since 2011 I am voluntarily designing posters and handouts for a
-              small theater in Leverkusen called
+              small theater in Leverkusen called&nbsp;
               <a href="https://www.matchboxtheater.de" target="_blank:">
                 matchboxtheater
               </a>
               .
             </p>
-          </AboutDiv>{" "}
+          </AboutDiv>
           <Menueitem id="skills">
             <h2>Skills</h2>
           </Menueitem>
@@ -197,7 +197,7 @@ function App() {
                 <h5>Git</h5>
               </Skill>
             </Container>
-          </SkillsDiv>{" "}
+          </SkillsDiv>
           <Menueitem id="projects">
             <h2>Projects</h2>
           </Menueitem>
@@ -254,6 +254,29 @@ function App() {
                 </Detailcontainer>
                 <Detailcontainer>
                   <a href="https://www.lauravikanis.de/" target="_blank:">
+                    <img src={deploymentpath} alt="deployment" />
+                    Deployment
+                  </a>
+                </Detailcontainer>
+              </Projectdetails>
+            </Project>
+            <img src={zickzackpath} alt="zickzack" />
+            <Project>
+              <h3>badJokes</h3>
+              <h5>Personal Project</h5>
+              <p>Create-React-App based page which uses a joke API</p>
+              <Projectdetails>
+                <Detailcontainer>
+                  <a
+                    href="https://github.com/lauravikanis/badJokes"
+                    target="_blank:"
+                  >
+                    <img src={githubpath} alt="github" />
+                    GitHub
+                  </a>
+                </Detailcontainer>
+                <Detailcontainer>
+                  <a href="https://badjokes247.herokuapp.com/" target="_blank:">
                     <img src={deploymentpath} alt="deployment" />
                     Deployment
                   </a>
@@ -320,6 +343,6 @@ function App() {
       </AppDiv>
     </>
   );
-}
+};
 
 export default App;

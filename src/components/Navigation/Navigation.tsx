@@ -24,6 +24,7 @@ const NavContainer = styled.header`
     font-size: 0.83em;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
   }
 `;
 
