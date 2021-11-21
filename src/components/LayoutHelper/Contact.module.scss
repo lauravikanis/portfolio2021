@@ -1,0 +1,24 @@
+.Details {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 0.5rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      padding-top: 0;
+      padding-bottom: 0;
+      max-width: 25px;
+      max-height: 25px;
+      margin-bottom: 0.25rem;
+    }
+  }
+}

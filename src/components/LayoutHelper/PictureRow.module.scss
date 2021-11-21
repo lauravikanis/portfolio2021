@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+
+  .picture {
+    max-width: 200px;
+    max-height: 200px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true
   },

@@ -1,0 +1,19 @@
+.MenuItem {
+  display: flex;
+  justify-content: center;
+  color: var(--background);
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-top: 5rem;
+  transform: skewX(-25deg);
+
+  h2 {
+    margin: 0.2rem;
+    transform: skewX(25deg);
+
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+
+    font-size: 200%;
+  }
+}

@@ -4,11 +4,11 @@ import classes from "./Navigation.module.scss";
 
 export const Navigation = () => (
   <div className={classes.NavContainer}>
-    <Link to="about" activeClass="active" spy={true} smooth={true} offset={-50}>
+    <Link to="About" activeClass="active" spy={true} smooth={true} offset={-50}>
       About
     </Link>
     <Link
-      to="skills"
+      to="Skills"
       activeClass="active"
       spy={true}
       smooth={true}
@@ -17,7 +17,7 @@ export const Navigation = () => (
       Skills
     </Link>
     <Link
-      to="projects"
+      to="Projects"
       activeClass="active"
       spy={true}
       smooth={true}
@@ -26,7 +26,7 @@ export const Navigation = () => (
       Projects
     </Link>
     <Link
-      to="contact"
+      to="Contact"
       activeClass="active"
       spy={true}
       smooth={true}

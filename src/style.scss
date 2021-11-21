@@ -1,0 +1,47 @@
+:root {
+  --titleFont: "Roboto Mono", monospace;
+  --textFont: "Roboto", sans-serif;
+  --background: #fcfcfc;
+  --text-color: #707070;
+  --primary-color: #344e9d;
+  --secondary-color: #ed7761;
+  --action-color: #f5df4d;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
+  background-image: url("./assets/background.svg");
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 500%;
+}
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: black;
+}
