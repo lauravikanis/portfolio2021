@@ -1,35 +1,9 @@
 import React from "react";
-import styled from "styled-components/macro";
 import { Link } from "react-scroll";
+import classes from "./Navigation.module.scss";
 
-const NavContainer = styled.header`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: white;
-  background-color: black;
-  width: 100vw;
-  padding: 0.5rem 10%;
-  position: fixed;
-  top: 0;
-  transform: skewX(0deg);
-  z-index: 1;
-
-  a {
-    color: white;
-    margin: 0 0.5rem;
-    font-size: 0.83em;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-  }
-`;
-
-const Navigation = () => (
-  <NavContainer>
+export const Navigation = () => (
+  <div className={classes.NavContainer}>
     <Link to="about" activeClass="active" spy={true} smooth={true} offset={-50}>
       About
     </Link>
@@ -60,7 +34,5 @@ const Navigation = () => (
     >
       Contact
     </Link>
-  </NavContainer>
+  </div>
 );
-
-export default Navigation;

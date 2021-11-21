@@ -1,18 +1,9 @@
-import styled from "styled-components/macro";
+import classes from "./Footer.module.scss";
 
-const Footer = styled.div`
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  align-items: center;
-  background-color: black;
-  color: white;
-  height: 2rem;
-
-  h5 {
-    margin: 0 auto;
-  }
-`;
-
-export default Footer;
+export const Footer = () => {
+  return (
+    <div className={classes.Footer}>
+      <h5>- Laura Vikanis 2021 -</h5>
+    </div>
+  );
+};

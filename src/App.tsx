@@ -1,150 +1,52 @@
+import { MailButton } from "components/Button/Button";
+import { Footer } from "components/Footer/Footer";
+import { Header } from "components/Header/Header";
+import { Navigation } from "components/Navigation/Navigation";
 import React from "react";
-import GlobalStyle from "./GlobalStyles";
-import Header from "./components/Header/Header";
-import Menueitem from "./components/Menueitem/Menueitem";
-import styled from "styled-components/macro";
-import Footer from "./components/Footer/Footer";
-import Navigation from "./components/Navigation/Navigation";
-import Button from "./components/Button/Button";
-import Skill from "./components/Skill/Skill";
-import Projectdetails from "./components/LayoutHelper/Projectdetails";
-import Detailcontainer from "./components/LayoutHelper/Detailcontainer";
-
-import linkedinpath from "./assets/linkedin.svg";
-import facebookpath from "./assets/facebook.svg";
-import instagrampath from "./assets/insta.svg";
-import githubpath from "./assets/github.svg";
-import twitterpath from "./assets/twitter.svg";
-import herokupath from "./assets/heroku.svg";
+import classes from "./App.module.scss";
 import deploymentpath from "./assets/deployment.svg";
-import zickzackpath from "./assets/zickzack.svg";
-
-const AppDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const MainDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 900px;
-  width: 80%;
-  background-color: var(--background);
-`;
-
-const AboutDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background-color: var(--background);
-
-  img {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  p {
-    width: 90%;
-  }
-`;
-
-const ProjectsDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  img {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-`;
-
-const Project = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  padding: 0.5rem;
-  width: 90%;
-
-  img {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  h5 {
-    margin: 0;
-  }
-`;
-
-const SkillsDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-`;
-
-const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
-  margin-top: 1rem;
-`;
-
-const ContactDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-  img {
-    width: 25px;
-    margin-right: 1rem;
-    margin-left: 1rem;
-  }
-`;
+import facebookpath from "./assets/facebook.svg";
+import githubpath from "./assets/github.svg";
+import herokupath from "./assets/heroku.svg";
+import instagrampath from "./assets/insta.svg";
+import linkedinpath from "./assets/linkedin.svg";
+import twitterpath from "./assets/twitter.svg";
+import { ReactComponent as Zickzackpath } from "./assets/zickzack.svg";
+import GlobalStyle from "./GlobalStyles";
 
 const App = () => {
   return (
     <>
       <GlobalStyle />
-      <AppDiv>
+      <div className={classes.AppDiv}>
         <Navigation />
-        <MainDiv>
+        <div className={classes.MainDiv}>
           <Header />
-          <Menueitem id="about">
+          <div className={classes.MenueItem} id="about">
             <h2>About</h2>
-          </Menueitem>
-          <AboutDiv>
+          </div>
+          <div className={classes.AboutDiv}>
             <p>
-              Hi there! Nice to meet you. <br/>
-              I am Laura, a Web Developer from Cologne, Germany. <br/>
-              I worked as a graphic designer for 8 years but in the end, I decided to switch careers.
-              I started my Developer career in summer 2020 by attending a 4-week workshop with shecodes.io. I got hooked immediately and decided to attend a 3month Bootcamp at neue Fische which I successfully graduated in January 2021.  
-              The most important thing I learned during this phase of my life was to never give up on my dreams and never be too shy to ask questions. There is always a solution to problems and I do not intend to reduce my steep learning course.
+              Hi there! Nice to meet you. <br />
+              I am Laura, a Web Developer from Cologne, Germany. <br />I worked
+              as a graphic designer for 8 years but in the end, I decided to
+              switch careers. I started my Developer career in summer 2020 by
+              attending a 4-week workshop with shecodes.io. I got hooked
+              immediately and decided to attend a 3month Bootcamp at neue Fische
+              which I successfully graduated in January 2021. The most important
+              thing I learned during this phase of my life was to never give up
+              on my dreams and never be too shy to ask questions. There is
+              always a solution to problems and I do not intend to reduce my
+              steep learning course.
             </p>
-            <img src={zickzackpath} alt="zickzack" />
+            <Zickzackpath className={classes.divider} />
             <p>
               Apart from working a lot on my computer, one of my main interests
-              is music. I enjoy going to concerts and looking for new artists, tracks, and genres. Apart from music
-              I also enjoy other aspects of arts and cultur such as visual and
-              performing arts.
+              is music. I enjoy going to concerts and looking for new artists,
+              tracks, and genres. Apart from music I also enjoy other aspects of
+              arts and cultur such as visual and performing arts.
             </p>
-            <img src={zickzackpath} alt="zickzack" />
+            <Zickzackpath className={classes.divider} />
             <p>
               Since 2011 I am voluntarily designing posters and handouts for a
               small theater in Leverkusen called&nbsp;
@@ -153,50 +55,50 @@ const App = () => {
               </a>
               .
             </p>
-          </AboutDiv>
-          <Menueitem id="skills">
+          </div>
+          <div className={classes.MenueItem} id="skills">
             <h2>Skills</h2>
-          </Menueitem>
-          <SkillsDiv>
+          </div>
+          <div className={classes.SkillsDiv}>
             <h3>TechStack</h3>
-            <Container>
-              <Skill>
+            <div className={classes.Container}>
+              <div className={classes.Skills}>
                 <h5>HTML 5</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>CSS 3</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Javascript</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Typescript</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>React</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Styled Components</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Tailwind</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>MongoDB</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Node.js</h5>
-              </Skill>
-              <Skill>
+              </div>
+              <div className={classes.Skills}>
                 <h5>Git</h5>
-              </Skill>
-            </Container>
-          </SkillsDiv>
-          <Menueitem id="projects">
+              </div>
+            </div>
+          </div>
+          <div className={classes.MenueItem} id="projects">
             <h2>Projects</h2>
-          </Menueitem>
-          <ProjectsDiv>
-            <Project>
+          </div>
+          <div className={classes.ProjectsDiv}>
+            <div className={classes.Project}>
               <h3>Walk the Line</h3>
               <h5>
                 Digital &quot;Gesellenstück&quot; for the webdevelopment
@@ -213,8 +115,8 @@ const App = () => {
                 future I plan to add more data records to the database and thus
                 extend the user experience.
               </p>
-              <Projectdetails>
-                <Detailcontainer>
+              <div className={classes.Project}>
+                <div className={classes.Detailcontainer}>
                   <a
                     href="https://github.com/lauravikanis/WalkTheLine"
                     target="_blank:"
@@ -222,22 +124,22 @@ const App = () => {
                     <img src={githubpath} alt="github" />
                     GitHub
                   </a>
-                </Detailcontainer>
-                <Detailcontainer>
+                </div>
+                <div className={classes.Detailcontainer}>
                   <a href="https://walktheline.herokuapp.com/" target="_blank:">
                     <img src={herokupath} alt="deployment" />
                     Deployment
                   </a>
-                </Detailcontainer>
-              </Projectdetails>
-            </Project>
-            <img src={zickzackpath} alt="zickzack" />
-            <Project>
+                </div>
+              </div>
+            </div>
+            <Zickzackpath className={classes.divider} />
+            <div className={classes.Project}>
               <h3>lauravikanis.de</h3>
               <h5>Personal Website</h5>
               <p>Create-React-App based personal portfolio</p>
-              <Projectdetails>
-                <Detailcontainer>
+              <div className={classes.ProjectDetails}>
+                <div className={classes.Detailcontainer}>
                   <a
                     href="https://github.com/lauravikanis/WalkTheLine"
                     target="_blank:"
@@ -245,22 +147,22 @@ const App = () => {
                     <img src={githubpath} alt="github" />
                     GitHub
                   </a>
-                </Detailcontainer>
-                <Detailcontainer>
+                </div>
+                <div className={classes.Detailcontainer}>
                   <a href="https://www.lauravikanis.de/" target="_blank:">
                     <img src={deploymentpath} alt="deployment" />
                     Deployment
                   </a>
-                </Detailcontainer>
-              </Projectdetails>
-            </Project>
-            <img src={zickzackpath} alt="zickzack" />
-            <Project>
+                </div>
+              </div>
+            </div>
+            <Zickzackpath className={classes.divider} />
+            <div className={classes.Project}>
               <h3>badJokes</h3>
               <h5>Personal Project</h5>
               <p>Create-React-App based page which uses a joke API</p>
-              <Projectdetails>
-                <Detailcontainer>
+              <div className={classes.ProjectDetails}>
+                <div className={classes.Detailcontainer}>
                   <a
                     href="https://github.com/lauravikanis/badJokes"
                     target="_blank:"
@@ -268,29 +170,29 @@ const App = () => {
                     <img src={githubpath} alt="github" />
                     GitHub
                   </a>
-                </Detailcontainer>
-                <Detailcontainer>
+                </div>
+                <div className={classes.Detailcontainer}>
                   <a href="https://badjokes247.herokuapp.com/" target="_blank:">
                     <img src={deploymentpath} alt="deployment" />
                     Deployment
                   </a>
-                </Detailcontainer>
-              </Projectdetails>
-            </Project>
-          </ProjectsDiv>{" "}
-          <Menueitem id="contact">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={classes.MenueItem} id="contact">
             <h2>Contact</h2>
-          </Menueitem>
-          <ContactDiv>
+          </div>
+          <div className={classes.ContactDiv}>
             <h3>Want to get in touch?</h3>
-            <Projectdetails>
-              <Detailcontainer>
+            <div className={classes.ProjectDetails}>
+              <div className={classes.Detailcontainer}>
                 <a href="https://github.com/lauravikanis" target="_blank:">
                   <img src={githubpath} alt="github" />
                   GitHub
                 </a>
-              </Detailcontainer>
-              <Detailcontainer>
+              </div>
+              <div className={classes.Detailcontainer}>
                 <a
                   href="https://www.linkedin.com/in/lauravikanis/"
                   target="_blank:"
@@ -298,10 +200,10 @@ const App = () => {
                   <img src={linkedinpath} alt="linkedin" />
                   LinkedIn
                 </a>
-              </Detailcontainer>
-            </Projectdetails>
-            <Projectdetails>
-              <Detailcontainer>
+              </div>
+            </div>
+            <div className={classes.ProjectDetails}>
+              <div className={classes.Detailcontainer}>
                 <a
                   href="https://www.facebook.com/laura.vikanis/"
                   target="_blank:"
@@ -309,8 +211,8 @@ const App = () => {
                   <img src={facebookpath} alt="facebook" />
                   Facebook
                 </a>
-              </Detailcontainer>
-              <Detailcontainer>
+              </div>
+              <div className={classes.Detailcontainer}>
                 <a
                   href="https://www.instagram.com/loeremoehre/"
                   target="_blank:"
@@ -318,25 +220,25 @@ const App = () => {
                   <img src={instagrampath} alt="instagram" />
                   Instagram
                 </a>
-              </Detailcontainer>
-              <Detailcontainer>
+              </div>
+              <div className={classes.Detailcontainer}>
                 <a href="https://twitter.com/loeremoehre" target="_blank:">
                   <img src={twitterpath} alt="twitter" />
                   Twitter
                 </a>
-              </Detailcontainer>
-            </Projectdetails>
+              </div>
+            </div>
             <h3>Send me a message</h3>
 
-            <Button href="mailto:info@lauravikanis.de"> Send Email</Button>
-          </ContactDiv>{" "}
-        </MainDiv>
-        <Footer>
-          <h5>- Laura Vikanis 2021 -</h5>
-        </Footer>
-      </AppDiv>
+            <MailButton
+              mailTo={"mailto:info@lauravikanis.de"}
+              text={"Send Email"}
+            />
+          </div>
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };
-
 export default App;

@@ -1,0 +1,173 @@
+.AppDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .MainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    width: 80%;
+    background-color: var(--background);
+
+    .divider {
+      margin: 5% auto;
+    }
+
+    .Picturerow {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 90%;
+      margin: 5% auto;
+
+      img {
+        height: 200px;
+        width: 200px;
+        margin: 0.5rem;
+      }
+    }
+
+    .Detailcontainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1rem;
+      margin: 1rem;
+      align-items: center;
+
+      img {
+        width: 25px;
+        margin-bottom: 0.25rem;
+      }
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .MenueItem {
+      display: flex;
+      justify-content: center;
+      color: var(--background);
+      background-color: var(--primary-color);
+      text-align: center;
+      margin-top: 5rem;
+      transform: skewX(-25deg);
+
+      h2 {
+        margin: 0.2rem;
+        transform: skewX(25deg);
+      }
+    }
+
+    .AboutDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-color: var(--background);
+
+      img {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+
+      p {
+        width: 90%;
+      }
+    }
+
+    .ProjectsDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      img {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+    }
+
+    .Project {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 0.5rem;
+      width: 90%;
+
+      img {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      h5 {
+        margin: 0;
+      }
+
+      .ProjectDetails {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+      }
+    }
+
+    .SkillsDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      .Skills {
+        display: flex;
+        justify-content: center;
+        background-color: var(--action-color);
+        color: black;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 1.5rem;
+        margin: 0.5rem;
+        transform: skewX(-25deg);
+
+        h5 {
+          transform: skewX(25deg);
+        }
+      }
+    }
+
+    .Container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 90%;
+      margin-top: 1rem;
+    }
+
+    .ContactDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      img {
+        width: 25px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
