@@ -5,13 +5,13 @@
   "description": "Personal website of Laura Vikanis",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauravikanis/start_template.git"
+    "url": "git+https://github.com/lauravikanis/portfolio2021.git"
   },
   "author": "Laura Vikanis",
   "license": "MIT",
-  "homepage": "https://www.lauravikans.de",
+  "homepage": "https://www.lauravikanis.de",
   "bugs": {
-    "url": "https://github.com/lauravikanis/start_template/issues"
+    "url": "https://github.com/lauravikanis/portfolio2021/issues"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
@@ -27,14 +27,13 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.21.5",
     "immer": "^9.0.6",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-dom": "^17.0.1",
     "react-instagram-embed": "^3.0.0",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.1",
     "sass": "^1.43.4",
-    "styled-components": "^5.2.1",
     "typescript": "^4.3.2",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^6.0.2",
