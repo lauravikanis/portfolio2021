@@ -62,7 +62,7 @@ const App = () => {
               arts and cultur such as visual and performing arts. I have an
               active Instagram account on which i share my love of puristic,
               minimalistic and symmetric pictures (nearly) all taken by myself.
-              Here you find a litle Sneak Peak:
+              Here you can find a little Sneak Peak:
             </p>
             <PictureRow pic1={berlin} pic2={essen} pic3={ando} />
             <Zickzackpath className={classes.divider} />

@@ -37,18 +37,17 @@
         flex-wrap: wrap;
 
         .Skills {
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
           display: flex;
           justify-content: center;
+          align-items: center;
           background-color: var(--action-color);
           color: black;
           text-align: center;
-          padding: 1.5rem;
+          padding: 0.75rem;
           margin: 0.5rem;
-          transform: skewX(-25deg);
-
-          h5 {
-            transform: skewX(25deg);
-          }
         }
       }
     }

@@ -15,11 +15,11 @@
   text-transform: uppercase;
   font-family: "Roboto Mono", monospace;
 
-  :hover {
+  &:hover {
     background-color: black;
     color: var(--action-color);
   }
-  :active {
+  &:active {
     background-color: black;
     color: var(--action-color);
   }
