@@ -42,27 +42,18 @@ const App = () => {
           <MenuItem id={"About"} />
           <section className={classes.sectionContainer}>
             <p>
-              Hi there! Nice to meet you. <br />
-              I am Laura, a Developer from Germany. <br />I worked as a graphic
-              designer for 8 years but in the end, I decided to switch careers.
-              I started my Developer career in summer 2020. In autumn 2020 I
-              attended a 3minth Bootcamp3month Bootcamp at neue Fische which I
-              successfully graduated in January 2021. The most important thing I
-              learned during this intense phase of my life was to never give up
-              on my dreams and never be too shy to ask questions. There is
-              always a solution to problems. I now work fulltime at a
-              techcompany and love to discover new technologies and learn about
-              them.
+              Hi there! Nice to meet you. <br />I am Laura, a Developer
+              currently based in Düsseldorf, Germany .
             </p>
             <Zickzackpath className={classes.divider} />
             <p>
               Apart from working a lot on my computer, one of my main interests
               is music. I enjoy going to concerts and looking for new artists,
-              tracks, and genres. Apart from music I also enjoy other aspects of
-              arts and cultur such as visual and performing arts. I have an
-              active Instagram account on which i share my love of puristic,
-              minimalistic and symmetric pictures (nearly) all taken by myself.
-              Here you can find a little Sneak Peak:
+              tracks, and genres. Check out my Playlists on Spotify. Apart from
+              music I also enjoy other aspects of arts and cultur such as visual
+              and performing arts. I have an active Instagram account on which i
+              share my love of taking puristic, minimalistic and symmetric
+              pictures.
             </p>
             <PictureRow pic1={berlin} pic2={essen} pic3={ando} />
             <Zickzackpath className={classes.divider} />
@@ -132,4 +123,5 @@ const App = () => {
     </>
   );
 };
+
 export default App;
