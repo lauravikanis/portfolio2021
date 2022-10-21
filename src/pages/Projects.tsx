@@ -1,6 +1,5 @@
 import { MenuItem } from "components/LayoutHelper/MenuItem";
 import { Project } from "components/LayoutHelper/Project";
-import React from "react";
 import classes from "./App.module.scss";
 import { ReactComponent as Zickzackpath } from "./assets/zickzack.svg";
 import "./style.scss";

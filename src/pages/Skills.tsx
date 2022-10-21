@@ -1,5 +1,4 @@
 import { MenuItem } from "components/LayoutHelper/MenuItem";
-import React from "react";
 import classes from "./App.module.scss";
 import "./style.scss";
 
