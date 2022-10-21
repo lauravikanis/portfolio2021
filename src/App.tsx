@@ -42,33 +42,37 @@ const App = () => {
           <MenuItem id={"About"} />
           <section className={classes.sectionContainer}>
             <p>
-              Hi there! Nice to meet you. <br />I am Laura, a Developer
-              currently based in Düsseldorf, Germany .
+              Hi there! Nice to meet you. <br />I am Laura, a Developer and
+              Photographer based in Düsseldorf, Germany.
             </p>
             <Zickzackpath className={classes.divider} />
+          </section>
+          <MenuItem id={"Photography and Design"} />
+          <section className={classes.sectionContainer}>
             <p>
-              Apart from working a lot on my computer, one of my main interests
-              is music. I enjoy going to concerts and looking for new artists,
-              tracks, and genres. Check out my Playlists on Spotify. Apart from
-              music I also enjoy other aspects of arts and cultur such as visual
-              and performing arts. I have an active Instagram account on which i
-              share my love of taking puristic, minimalistic and symmetric
-              pictures.
+              Graphic dsign and Photography alwas interested me. Thats why a
+              fterr school i considered an caeer is Desgin. After 7 years and
+              working in advertising o can say, id like designinf to stay a
+              hobby of mineI am interested in finding interesting angles and
+              lines in viewpoints and like to take pitures very spontaniously.
+              Thats why most of my photographic work is shot on mobile phone. I
+              am currently also getting into shoting with a small compact
+              point-to-shot camera.
             </p>
             <PictureRow pic1={berlin} pic2={essen} pic3={ando} />
             <Zickzackpath className={classes.divider} />
             <p>
-              In my free time i am also voluntarily designing posters and
-              handouts for a small theater in Leverkusen called&nbsp;
+              I am also voluntarily designing posters and handouts for a small
+              theater in Leverkusen called&nbsp;
               <a href="https://www.matchboxtheater.de" target="_blank:">
                 matchboxtheater
               </a>
-              .
             </p>
           </section>
           <MenuItem id={"Skills"} />
           <section className={classes.sectionContainer}>
             <h5>Technologies i have worked with so far:</h5>
+
             <div className={classes.SkillContainer}>
               {Skills.map((skill) => (
                 <div className={classes.Skills} key={skill}>
